@@ -5,7 +5,7 @@ docker image ls -> liat semua image docker
 docker image pull redis:latest -> namaimage:tag
 docker image rm hello-world:latest -> namaimage:tag
 
-container masih make image
+container masih perlu image untuk running
 
 # container list
 docker container ls -a => melihat semua container
@@ -30,3 +30,8 @@ docker container exec -i -t containerId/namacontainer /bin/bash -> untuk mengeks
 # container port
 docker container create --name namacontainer --publish porthost:portcontainer namaimage:tag-> port forwarding
 
+# environment variable
+docker container create --name namacontainer --env KEY="value" --env KEY2="value2" image:tag
+
+# container stats
+docker container stats
