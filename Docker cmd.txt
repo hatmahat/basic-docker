@@ -35,3 +35,9 @@ docker container create --name namacontainer --env KEY="value" --env KEY2="value
 
 # container stats
 docker container stats
+
+# container resource limit
+contoh:
+docker container create --name samllnginx --publish 8081:80 --memory 100m --cpus 0.5 ngix:latest
+
+kalau nggak dikasih dia bisa menggunakan 100% yang dikasih ke docker
