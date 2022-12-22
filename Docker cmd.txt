@@ -27,3 +27,6 @@ docker container exec -i -t containerId/namacontainer /bin/bash -> untuk mengeks
 -i -> interaktif
 -t -> argumen untuk alokasi pseudo-TTY (terminal akses)
 
+# container port
+docker container create --name namacontainer --publish porthost:portcontainer namaimage:tag-> port forwarding
+
