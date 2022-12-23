@@ -1,10 +1,10 @@
 https://github.com/ProgrammerZamanNow/belajar-docker-dasar
 
-# docker image
-docker image ls -> liat semua image docker
-docker image pull redis:latest -> namaimage:tag
-docker image rm hello-world:latest -> namaimage:tag
-
+# docker image  
+docker image ls -> liat semua image docker  
+docker image pull redis:latest -> namaimage:tag  
+docker image rm hello-world:latest -> namaimage:tag  
+  
 container masih perlu image untuk running
 
 # container list
