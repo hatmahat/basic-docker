@@ -20,6 +20,7 @@ docker container rm namacontainer -> harus dihentikan dulu baru bisa dihapus
 # container logs  
 docker container logs containerId/namacontainer -> nampilin log yg udah ada  
 docker container logs -f containerId/namacontainer -> melihat logs tanpa blocking
+docker container logs --details containerid/namacontainer -> logs biasa
 
 # container exec  
 docker container exec -i -t containerId/namacontainer /bin/bash -> untuk mengeksekusi program yang ada di dalam container  
