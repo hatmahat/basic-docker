@@ -13,7 +13,8 @@ docker container ls -> hanya leihat container yang berjalan
 docker container create --name namacontainer namaimage:tag -> buat container  
 docker container start namacontainer/idcontainer -> buat running container  
 docker container stop namacontainer/idcontainer -> buat stop container  
-docker container rm namacontainer -> harus dihentikan dulu baru bisa dihapus
+docker container rm namacontainer -> harus dihentikan dulu baru bisa dihapus  
+docker container rm -f namacontainer -> auto stop & hapus container
 
 # container logs  
 docker container logs containerId/namacontainer -> nampilin log yg udah ada  
