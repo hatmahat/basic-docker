@@ -41,7 +41,10 @@ contoh:
 docker container create --name samllnginx --publish 8081:80 --memory 100m --cpus 0.5 ngix:latest
   
 kalau nggak dikasih dia bisa menggunakan 100% yang dikasih ke docker  
-  
+
 https://docs.docker.com/engine/reference/commandline/compose_up/  
 https://github.com/ProgrammerZamanNow/belajar-docker-dasar  
 https://dasarpemrogramangolang.novalagung.com/C-dockerize-golang.html
+
+smaller docker images
+https://learnk8s.io/blog/smaller-docker-images
