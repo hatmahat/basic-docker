@@ -1,3 +1,5 @@
+# Cheatsheet Docker
+
 # docker image  
 docker image ls -> liat semua image docker  
 docker image pull redis:latest -> namaimage:tag  
